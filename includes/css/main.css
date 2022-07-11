@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 body {
-    background: #EC6F66;
-    background: -webkit-linear-gradient(to left, #EC6F66, #F3A183);
-    background: linear-gradient(to left, #EC6F66, #F3A183);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #cards-container {
@@ -28,18 +28,21 @@ body {
     min-width: 150px;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
-    color: #a7bfe8;
-    /* header ideally should have image, not text */
+    color: #303c52;
 }
 
-#cards-container .row .card-description {
+#cards-container .row .card-sketch {
     padding: 20px;
     background: #ffffff;
     border: 1px solid #d7d2cc;
-    color: #49a09d;
     font-size: 17px;
     text-align: center;
-    height: 175px;
+    height: 250px;
+}
+
+.card-sketch img {
+    width: 100%;
+    height: 100%;
 }
 
 #cards-container .row .flash-card .card-title {
