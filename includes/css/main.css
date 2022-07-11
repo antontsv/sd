@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+    background: #EC6F66;
+    background: -webkit-linear-gradient(to left, #EC6F66, #F3A183);
+    background: linear-gradient(to left, #EC6F66, #F3A183);
+}
+
+#cards-container {
+    padding-top: 50px;
+}
+
+#cards-container .row {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot', sans-serif;
+}
+
+#cards-container .row .flash-card {
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+#cards-container .row .flash-card .card-header {
+    position: relative;
+    padding: 30px 30px;
+    text-align: center;
+    min-height: 225px;
+    min-width: 150px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #a7bfe8;
+    /* header ideally should have image, not text */
+}
+
+#cards-container .row .card-description {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #d7d2cc;
+    color: #49a09d;
+    font-size: 17px;
+    text-align: center;
+    height: 175px;
+}
+
+#cards-container .row .flash-card .card-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-overlay {
+    cursor: default;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.overlay-shadow {
+    height: inherit;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto 15px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+/* Gradient colors for card background */
+
+.gcolor-1 {
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+
+.gcolor-2 {
+    background: #e53935;
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);
+    background: linear-gradient(to right, #e35d5b, #e53935);
+}
+
+.gcolor-3 {
+    background: #ff8008;
+    background: -webkit-linear-gradient(to right, #ff8008, #ffc837);
+    background: linear-gradient(to right, #ff8008, #ffc837);
+}
+
+.gcolor-4 {
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #fffc00, #ffcc33);
+    background: linear-gradient(to right, #fffc00, #ffcc33);
+}
+
+.gcolor-5 {
+    background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+.gcolor-6 {
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
+}
