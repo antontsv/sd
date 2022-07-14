@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 body {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 
 #cards-container {
@@ -123,7 +123,31 @@ body {
 }
 
 .gcolor-6 {
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to right, #a044ff, #6a3093);
+    background: #DA22FF;
+    background: -webkit-linear-gradient(to right, #a044ff, #DA22FF);
+    background: linear-gradient(to right, #a044ff, #DA22FF);
+}
+
+.gcolor-7 {
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+}
+
+.gcolor-8 {
+    background: #9CECFB;
+    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+}
+
+.gcolor-9 {
+    background: #ffefba;
+    background: -webkit-linear-gradient(to right, #ffefba, #fffc00);
+    background: linear-gradient(to right, #ffefba, #fffc00);
+}
+
+.gcolor-10 {
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
 }

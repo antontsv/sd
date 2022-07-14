@@ -21,7 +21,12 @@ var cards = [
     },
     {
         "name": "Notification service",
-        "description": "Service that notifies users about events though many channels like email, mobile, webhook",
+        "description": "Service that notifies users about events through many channels like email, mobile, webhooks",
         "url": "./data/Notification-Service.svg" 
+    },
+    {
+        "name": "Replication",
+        "description": "Short summary of Designing Data-Intensive Applications (chapter 6) by Martin Kleppman",
+        "url": "./data/Replication.svg" 
     },
 ]
