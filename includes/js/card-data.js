@@ -29,4 +29,9 @@ var cards = [
         "description": "Short summary of Designing Data-Intensive Applications (chapter 6) by Martin Kleppman",
         "url": "./data/Replication.svg" 
     },
+    {
+        "name": "Distributed cache",
+        "description": "Distributed cache summary from YouTube series by Mikhail Smarshchok",
+        "url": "./data/DistributedCache.svg"
+    },
 ]
