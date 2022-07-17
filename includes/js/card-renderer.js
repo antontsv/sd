@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     if (cards != undefined) {
         for (i in cards) {
-            colorIndex = (i % 10) + 1
+            colorIndex = (i % 18) + 1
             var cardNumber = parseInt(i) + 1
             $("#cards-container").find(".row").append(`
                 <div class="col-md-4 col-sm-12 col-xs-12">
