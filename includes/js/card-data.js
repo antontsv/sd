@@ -26,7 +26,7 @@ var cards = [
     },
     {
         "name": "Replication",
-        "description": "Short summary of Designing Data-Intensive Applications (chapter 6) by Martin Kleppman",
+        "description": "Short summary of Designing Data-Intensive Applications (chapter 5) by Martin Kleppman",
         "url": "./data/Replication.svg"
     },
     {
@@ -38,5 +38,10 @@ var cards = [
         "name": "Reservation System",
         "description": "Book item type now, use item later: hotel/AirBnB reservation, ticket booking. Based on System Design book by Alex Xu and Sahn Lam",
         "url": "./data/Reservation-System.svg"
+    },
+    {
+        "name": "Partitioning",
+        "description": "Short summary of Designing Data-Intensive Applications (chapter 6) by Martin Kleppman",
+        "url": "./data/Partitioning.svg"
     },
 ]
