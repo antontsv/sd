@@ -44,4 +44,9 @@ var cards = [
         "description": "Short summary of Designing Data-Intensive Applications (chapter 6) by Martin Kleppman",
         "url": "./data/Partitioning.svg"
     },
+    {
+        "name": "Proximity",
+        "description": "Data structures and ideas used for proximity services",
+        "url": "./data/Proximity.svg"
+    },
 ]
